@@ -1,31 +1,31 @@
 /*
- * 酱茄小程序开源版 v1.1.8
+ * 酱茄小程序开源版 v1.5.0
  * Author: 酱茄
  * Help document: https://www.jiangqie.com/ky
  * github: https://github.com/longwenjunjie/jiangqie_kafei
  * gitee: https://gitee.com/longwenjunj/jiangqie_kafei
- * License：MIT
- * Copyright ️ 2020 www.jiangqie.com All rights reserved.
+ * Copyright © 2020-2021 www.jiangqie.com All rights reserved.
  */
 
 @import '../../templates/nodata/nodata.wxss';
 
 .jiangqie-timeline-view {
     text-align: left;
-    padding-left: 66rpx;
+    padding-left: 36rpx;
     padding-right: 30rpx;
+    color:  rgb(117, 116, 116);
 }
 
 .jiangqie-timeline-block {
     display: block;
     padding-top: 40rpx;
     margin-top: 30rpx;
-    border-bottom: 1rpx solid #DDD;
+    border-bottom: 1rpx solid rgb(117, 116, 116);
 }
 
 .jiangqie-timeline-times {
     float: left;
-    margin-left: -40rpx;
+    margin-left: -10rpx;
     margin-top: -60rpx;
 }
 
@@ -38,20 +38,22 @@
 .jiangqie-timeline-times text {
     font-size: 24rpx;
     font-weight: 200;
-    color: #BBB;
+    color: #FFF;
 }
 
 .jiangqie-timeline-box {
     padding: 30rpx 30rpx 30rpx 0;
     min-height: 180rpx;
-    background: #FFF;
+    /***
+      background: #000000;
+    **/
     border-radius: 16rpx;
 }
 
 .jiangqie-timeline-image {
     float: right;
     height: 180rpx;
-    width: 180rpx;
+    width: 230rpx;
     border-radius: 16rpx;
     box-shadow: 5rpx 5rpx 20rpx rgba(0, 0, 0, 0.2);
 }
@@ -61,8 +63,8 @@
 }
 
 .jiangqie-timeline-title {
-    font-size: 32rpx;
-    color: #333;
+    font-size: 26rpx;
+    color: #FFF;
     font-weight: 400;
     line-height: 50rpx;
     margin-bottom: 30rpx;
@@ -71,14 +73,14 @@
 
 .jiangqie-timeline-describe {
     font-size: 24rpx;
-    color: #999;
+    color: #FFF;
     line-height: 30rpx;
     margin-bottom: 18rpx;
 }
 
 .jiangqie-timeline-info {
     font-size: 22rpx;
-    color: #AAA;
+    color: #FFF;
     vertical-align: bottom;
     height: 26rpx;
 }
@@ -135,8 +137,8 @@
 }
 
 .timeline-single .jiangqie-timeline-image {
-    height: 180rpx;
-    width: 180rpx;
+    height: 160rpx;
+    width: 240rpx;
     margin-right: -205rpx;
     margin-top: -4rpx;
 }
@@ -232,9 +234,8 @@
     box-sizing: border-box;
     left: 0;
     z-index: 99;
-    background: #fff;
+    background: #000000;
     white-space: nowrap;
-    border-bottom: 1rpx solid #DDD;
 }
 
 .tab-bar-item {
@@ -252,17 +253,17 @@
     height: 100rpx;
     line-height: 100rpx;
     font-size: 32rpx;
-    color: #999;
+    color: #FFF;
     font-weight: 200;
 }
 
 .active {
-    border-bottom: 6rpx solid #E6321D;
+    border-bottom: 6rpx solid rgb(117, 116, 116);
 }
 
 .active .tab-bar-title {
-    color: #E6321D !important;
-    font-size: 36rpx;
+    color: #FFF !important;
+    font-size: 28rpx;
     font-weight: bold;
 }
 

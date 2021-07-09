@@ -27,7 +27,7 @@ Component({
         },
         searchText: {
             type: String,
-            value: '点我搜索'
+            value: '搜索'
         },
         searchBar: {
             type: Boolean,

@@ -17,13 +17,16 @@
 </scroll-view>
 
 <view style="background: url({{tl_background}}) repeat-y; background-position: -30rpx 0;">
+	
+	<view class="adContainer">
+  	<ad unit-id="adunit-ce695860e015dabd" ad-intervals="30"></ad>
+	</view>
 
 	<block wx:if="{{posts.length > 0}}">
 		<view class="jiangqie-timeline-view">
 
 			<view wx:for="{{posts}}" wx:key="id" data-id="{{item.id}}" class="jiangqie-timeline-block" catchtap="handlerHotArticle">
 				<view class="jiangqie-timeline-times">
-					<image src="../../images/timelinedot.png" mode="aspectFill"></image>
 					<text>{{item.time}}</text>
 				</view>
 				<view class="jiangqie-timeline-box timeline-single">

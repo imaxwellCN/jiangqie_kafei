@@ -1,5 +1,6 @@
 {
     "pages": [
+        
         "pages/index/index",
         "pages/hot/hot",
         "pages/ucenter/ucenter",
@@ -9,21 +10,22 @@
         "pages/article/article",
         "pages/about/about",
         "pages/login/login",
-        "pages/viewhtml/viewhtml"
+        "pages/viewhtml/viewhtml",
+        "pages/discovery/discovery"
     ],
     "window": {
         "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#E6321D",
+        "navigationBarBackgroundColor": "#000000",
         "navigationBarTitleText": "WeChat",
         "navigationBarTextStyle": "white",
-        "backgroundColor": "#F7F7F7",
-        "backgroundColorTop": "#F7F7F7",
-        "backgroundColorBottom": "#F7F7F7"
+        "backgroundColor": "#000000",
+        "backgroundColorTop": "#000000",
+        "backgroundColorBottom": "#000000"
     },
     "tabBar": {
-        "color": "#bfbfbf",
+        "color": "#fff",
         "selectedColor": "#e6372f",
-        "backgroundColor": "#FFFFFF",
+        "backgroundColor": "#000000",
         "list": [{
                 "pagePath": "pages/index/index",
                 "text": "首页",

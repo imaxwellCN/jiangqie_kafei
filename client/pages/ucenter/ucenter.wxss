@@ -1,11 +1,10 @@
 /*
- * 酱茄小程序开源版 v1.1.8
+ * 酱茄小程序开源版 v1.5.0
  * Author: 酱茄
  * Help document: https://www.jiangqie.com/ky
  * github: https://github.com/longwenjunjie/jiangqie_kafei
  * gitee: https://gitee.com/longwenjunj/jiangqie_kafei
- * License：MIT
- * Copyright ️ 2020 www.jiangqie.com All rights reserved.
+ * Copyright © 2020-2021 www.jiangqie.com All rights reserved.
  */
  
 @import '../../templates/poplogin/poplogin.wxss';
@@ -110,7 +109,7 @@
 }
 
 .jiangqie-postcount {
-    border-bottom: 8rpx solid #F3F3F3;
+    border-bottom: 1rpx solid #000000;
 }
 
 .jiangqie-listblock {
@@ -147,9 +146,9 @@
 }
 
 .jiangqie-listtitle text {
-    font-size: 32rpx;
+    font-size: 26rpx;
     font-weight: 400;
-    color: #333;
+    color: #FFF;
     vertical-align: top;
 }
 
@@ -176,6 +175,6 @@ button.jiangqie-listtitle {
 }
 
 .jiangqie-list-split {
-    height: 16rpx;
+    height: 2rpx;
     background-color: #F3F3F3;
 }

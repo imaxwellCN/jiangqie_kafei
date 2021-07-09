@@ -17,7 +17,7 @@
 			</block>
 			<block wx:else>
 				<view class="jiangqie-useravatar">
-					<image src="../../images/default_avatar.jpg" mode="aspectFill"></image>
+					<image src="" mode="aspectFill"></image>
           <view class="jiangqie-useralogin"><navigator url="../login/login">立即登录</navigator></view>
 				</view>
 			</block>
@@ -143,3 +143,12 @@
 <!--加载框 start-->
 <tui-loading visible="{{loading}}"></tui-loading>
 <!--加载框 end-->
+<view class="adContainer">
+  	<ad unit-id="adunit-ce695860e015dabd" ad-intervals="30"></ad>
+	</view>
+
+<view class="tui-nomore-class tui-loadmore">
+	<view class="tui-nomore">
+		<view class="tui-text" bindtap="copy" data-text="imzxh.cn">© Maxwell imzxh.cn</view>
+	</view>
+</view>

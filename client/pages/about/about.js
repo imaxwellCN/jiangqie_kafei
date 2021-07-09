@@ -1,11 +1,10 @@
 /*
- * 酱茄小程序开源版 v1.1.8
+ * 酱茄小程序开源版 v1.5.0
  * Author: 酱茄
  * Help document: https://www.jiangqie.com/ky
  * github: https://github.com/longwenjunjie/jiangqie_kafei
  * gitee: https://gitee.com/longwenjunj/jiangqie_kafei
- * License：MIT
- * Copyright ️ 2020 www.jiangqie.com All rights reserved.
+ * Copyright © 2020-2021 www.jiangqie.com All rights reserved.
  */
 
 const Constant = require('../../utils/constants');
@@ -16,6 +15,7 @@ Page({
     },
 
     onLoad: function (options) {
+
 
     },
 
@@ -40,7 +40,7 @@ Page({
                 wx.getClipboardData({
                     success(res) {
                         wx.showToast({
-                            title: '微信号已复制',
+                            title: '网址已复制',
                         });
                     }
                 })
@@ -51,7 +51,7 @@ Page({
     tipClick: function () {
         wx.showToast({
             icon: 'none',
-            title: '酱茄小程序开源版 v1.1.8',
+            title: 'Maxwell (imzxh.cn)',
         })
     }
 })

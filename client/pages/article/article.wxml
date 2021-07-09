@@ -16,6 +16,9 @@
 			</view>
 		</view>
 	</view>
+	<view wx:if="{{official}}" class="jiangqie-official-mod">
+		<official-account></official-account>
+	</view>
 	<view class="jiangqie-page-body">
 
 		<template is="wxParse" data="{{wxParseData:article.nodes}}" />
@@ -53,6 +56,11 @@
 			</view>
 		</view>
 	</view>
+	
+	<view class="adContainer">
+  	<ad unit-id="adunit-ce695860e015dabd" ad-intervals="30"></ad>
+	</view>
+
 	<view class="jiangqie-page-cmtbox">
 		<view class="jiangqie-page-cmt-title">
 			评论<text>{{comment_count + comment_count_change}}</text>
@@ -60,7 +68,7 @@
 		<block wx:if="{{comments.length>0}}">
 			<view wx:for="{{comments}}" wx:key="id" class="jiangqie-page-cmt-content">
 				<view class="jiangqie-page-cmt-avatar">
-					<image src="{{item.user.avatar.length>0?item.user.avatar:'../../images/default_avatar.jpg'}}" mode="aspectFill"></image>
+					<image src="{{item.user.avatar.length>0?item.user.avatar:'https://imaxwell.cn/avatar'}}" mode="aspectFill"></image>
 				</view>
 				<view class="jiangqie-page-cmt-head">
 					{{item.user.name}}

@@ -13,6 +13,7 @@
     justify-content: center;
     margin-top: 10rpx;
     padding-bottom: 44rpx;
+    background-color:#000000;
 }
 
 .tui-nomore::before {
@@ -27,13 +28,14 @@
 
 .tui-text {
     position: absolute;
-    color: #999;
+    color: #FFF;
     font-size: 24rpx;
     text-align: center;
     padding: 0 18rpx;
     height: 36rpx;
     line-height: 36rpx;
     z-index: 1;
+    background-color:#000000;
 }
 
 .tui-nomore-dot {

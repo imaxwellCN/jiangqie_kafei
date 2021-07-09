@@ -1,11 +1,10 @@
 /*
- * 酱茄小程序开源版 v1.1.8
+ * 酱茄小程序开源版 v1.5.0
  * Author: 酱茄
  * Help document: https://www.jiangqie.com/ky
  * github: https://github.com/longwenjunjie/jiangqie_kafei
  * gitee: https://gitee.com/longwenjunj/jiangqie_kafei
- * License：MIT
- * Copyright ️ 2020 www.jiangqie.com All rights reserved.
+ * Copyright © 2020-2021 www.jiangqie.com All rights reserved.
  */
 
 const Constant = require('./constants');
@@ -53,18 +52,6 @@ module.exports = {
                 fail: function (err) {
                     reject(err);
                 }
-            });
-        }).then(data => {
-            return new Promise(function (resolve, reject) {
-                wx.getUserInfo({
-                    success: function (res) {
-                        res.code = data.code;
-                        resolve(res);
-                    },
-                    fail: function (err) {
-                        reject(err);
-                    }
-                });
             });
         });
     },

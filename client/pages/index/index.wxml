@@ -1,17 +1,15 @@
 <!--index.wxml-->
 <view style="background: url({{background}}) no-repeat;background-size: 100% auto;background-position-y: 100rpx;">
-	<navBar background='rgba(224, 48, 31, 100)' searchBar="{{true}}" bindsearch="handlerSearchClick">
+	<navBar background='#000000' searchBar="{{true}}" bindsearch="handlerSearchClick">
 		<view slot="left" class='lxy-nav-bar__logo'>
-			<image src="{{logo}}"></image>
+			Maxwell
+			<!-- <image src="{{logo}}"></image>-->
 		</view>
 	</navBar>
 
 	<scroll-view scroll-x scroll-with-animation class="tab-view" scroll-left="{{scrollLeft}}">
 		<view wx:for="{{topNav}}" wx:key="index" class="tab-bar-item {{currentTab==index ? 'active' : ''}}" data-current="{{index}}" catchtap="swichNav">
 			<text class="tab-bar-title">{{item.name}}</text>
-		</view>
-		<view class="tab-bar-item">
-			<text class="tab-bar-title">.</text>
 		</view>
 	</scroll-view>
 	<view class="tab-more" catchtap="handlerTabMoreClick">
@@ -43,6 +41,7 @@
 				</view>
 
 				<!--推荐模块-->
+					<!--
 				<view wx:if="{{actives}}" class="jiangqie-news-view">
 					<view class="jiangqie-news-lightbox jiangqie-news-lightbox-main" data-link="{{actives.left.link}}" catchtap="handlerActiveClick">
 						<image class="jiangqie-news-lightimg" src="{{actives.left.image}}" mode="aspectFill"></image>
@@ -63,6 +62,7 @@
 						</view>
 					</view>
 				</view>
+				-->
 
 				<!--新闻列表——热门-->
 				<view wx:if="{{hot && hot.length>0}}" class="jiangqie-news-view jiangqie-news-hot">
@@ -76,6 +76,11 @@
 						</view>
 					</scroll-view>
 				</view>
+				
+				<view class="adContainer">
+  	<ad unit-id="adunit-ce695860e015dabd" ad-intervals="30"></ad>
+	</view>
+	
 
 				<!--新闻列表——常规-->
 				<view class="jiangqie-news-view">
@@ -86,7 +91,10 @@
 						<view wx:if="{{(listMode==1 && false) || (listMode==2) || (listMode==3 && index%5==4)}}" class="jiangqie-news-block image-wide" data-id="{{item.id}}" catchtap="handlerArticleClick">
 							<image src="{{item.thumbnail}}" mode="aspectFill" class="jiangqie-news-image"></image>
 							<view class="jiangqie-news-text">
-								<view class="jiangqie-news-title {{item.excerpt?'':'jiangqie-news-no-excerpt'}}">{{item.title}}</view>
+								<view class="jiangqie-news-title {{item.excerpt?'':'jiangqie-news-no-excerpt'}}">
+									<text wx:if="{{item.stick==1}}">置顶</text>
+									{{item.title}}
+								</view>
 								<view wx:if="{{item.excerpt}}" class="jiangqie-news-describe">{{item.excerpt}}</view>
 								<view class="jiangqie-news-info">
 									<view class="jiangqie-news-cmt">
@@ -96,11 +104,15 @@
 									<text class="jiangqie-news-time">{{item.time}}</text>
 								</view>
 							</view>
+							<!-- <image wx:if="{{item.stick==1}}" src="../../images/set_top.png" mode="aspectFill" class="jiangqie-news-stick-image"></image> -->
 						</view>
 						<view wx:else class="jiangqie-news-block" data-id="{{item.id}}" catchtap="handlerArticleClick">
 							<image src="{{item.thumbnail}}" mode="aspectFill" class="jiangqie-news-image"></image>
 							<view class="jiangqie-news-text">
-								<view class="jiangqie-news-title {{item.excerpt?'':'jiangqie-news-no-excerpt'}}">{{item.title}}</view>
+								<view class="jiangqie-news-title {{item.excerpt?'':'jiangqie-news-no-excerpt'}}">
+									<text wx:if="{{item.stick==1}}">置顶</text>
+									{{item.title}}
+								</view>
 								<view wx:if="{{item.excerpt}}" class="jiangqie-news-describe">{{item.excerpt}}</view>
 								<view class="jiangqie-news-info">
 									<view class="jiangqie-news-cmt">
@@ -110,6 +122,7 @@
 									<text class="jiangqie-news-time">{{item.time}}</text>
 								</view>
 							</view>
+							<!-- <image wx:if="{{item.stick==1}}" src="../../images/set_top.png" mode="aspectFill" class="jiangqie-news-stick-image"></image> -->
 						</view>
 					</block>
 				</view>

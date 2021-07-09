@@ -1,11 +1,10 @@
 /*
- * 酱茄小程序开源版 v1.1.8
+ * 酱茄小程序开源版 v1.5.0
  * Author: 酱茄
  * Help document: https://www.jiangqie.com/ky
  * github: https://github.com/longwenjunjie/jiangqie_kafei
  * gitee: https://gitee.com/longwenjunj/jiangqie_kafei
- * License：MIT
- * Copyright ️ 2020 www.jiangqie.com All rights reserved.
+ * Copyright © 2020-2021 www.jiangqie.com All rights reserved.
  */
 
 @import "../../components/wxParse/wxParse.wxss";
@@ -21,6 +20,7 @@ button {
 
 .jiangqie-page-view {
     padding: 0rpx;
+    background-color: #000000;
 }
 
 .jiangqie-page-head {
@@ -37,7 +37,7 @@ button {
     display: block;
     line-height: 46rpx;
     padding: 50rpx 30rpx 0;
-    color: #333;
+    color: #F3F3F3;
     font-size: 36rpx;
     font-weight: 500;
 }
@@ -46,7 +46,7 @@ button {
     height: 80rpx;
     line-height: 80rpx;
     border-radius: 40rpx 40rpx 0 0;
-    background: #FFF;
+    background: #000000;
     padding: 0 30rpx;
 }
 
@@ -68,7 +68,7 @@ button {
 .jiangqie-page-cmt text {
     font-size: 24rpx;
     font-weight: 200;
-    color: #CCC;
+    color: #FFF;
     display: inline-block;
     line-height: 80rpx;
     padding: 0rpx;
@@ -85,13 +85,13 @@ button {
 
 .jiangqie-page-body {
     padding: 30rpx 50rpx;
-    background: #FFF;
+    background: #000000;
 }
 
 .wxParse-p {
     margin-top: 30rpx;
     font-size: 30rpx;
-    color: #333333;
+    color: #999;
     line-height: 60rpx;
 }
 
@@ -137,25 +137,25 @@ button {
 
 .jiangqie-page-cmtbox {
     padding: 20rpx 30rpx 80rpx;
-    border-top: 16rpx solid #F3F3F3;
-    background: #FFF;
+    border-top: 16rpx solid #000000;
+    background: #000000;
     clear: left;
 }
 
 .jiangqie-page-cmt-title {
     font-size: 32rpx;
     font-weight: 500;
-    color: #333;
+    color: #FFF;
     padding: 10rpx 0 16rpx;
 }
 
 .jiangqie-page-cmt-title text {
     font-size: 20rpx;
     font-weight: 200;
-    color: #CCC;
+    color: #FFF;
     padding: 6rpx 16rpx;
     border-radius: 30rpx;
-    background: #F6F6F6;
+    background: #999;
     margin-left: 30rpx;
 }
 
@@ -183,13 +183,13 @@ button {
 .jiangqie-page-cmt-head {
     font-size: 28rpx;
     font-weight: 500;
-    color: #333;
+    color: #FFF;
 }
 
 .jiangqie-page-cmt-time {
     font-size: 20rpx;
     font-weight: 200;
-    color: #BBB;
+    color: #FFF;
     margin-left: 20rpx;
 }
 
@@ -200,14 +200,14 @@ button {
 .jiangqie-page-cmt-text-world {
     font-size: 26rpx;
     font-weight: 300;
-    color: #444;
+    color: #FFF;
 }
 
 .jiangqie-page-cmt-replay {
     margin-top: 20rpx;
     border-radius: 30rpx;
     padding: 0 20rpx;
-    background: #F6F6F6;
+    background: #000000;
 }
 
 .jiangqie-page-cmt-replay-box {
@@ -223,20 +223,20 @@ button {
     padding-bottom: 10rpx;
     font-size: 24rpx;
     font-weight: 500;
-    color: #333;
+    color: #FFF;
 }
 
 .jiangqie-page-cmt-replay-time {
     font-size: 20rpx;
     font-weight: 200;
-    color: #BBB;
+    color: #FFF;
     margin-left: 20rpx;
 }
 
 .jiangqie-page-cmt-replay-world {
     font-size: 24rpx;
     font-weight: 300;
-    color: #444;
+    color: #FFF;
 }
 
 /**/
@@ -271,7 +271,7 @@ button {
 .jiangqie-page-laud-btn text {
     font-size: 32rpx;
     font-weight: 200;
-    color: #999;
+    color: #FFF;
 }
 
 .jiangqie-page-laud-list {
@@ -509,4 +509,8 @@ button.jiangqie-page-laud-btn {
 .jiangqie-goback-btn image {
     height: 96rpx;
     width: 96rpx;
+}
+
+.jiangqie-official-mod {
+    padding: 10rpx 0;
 }

@@ -1,11 +1,10 @@
 /*
- * 酱茄小程序开源版 v1.1.8
+ * 酱茄小程序开源版 v1.5.0
  * Author: 酱茄
  * Help document: https://www.jiangqie.com/ky
  * github: https://github.com/longwenjunjie/jiangqie_kafei
  * gitee: https://gitee.com/longwenjunj/jiangqie_kafei
- * License：MIT
- * Copyright ️ 2020 www.jiangqie.com All rights reserved.
+ * Copyright © 2020-2021 www.jiangqie.com All rights reserved.
  */
 
 .lxy-nav-bar__logo {
@@ -13,6 +12,7 @@
     align-items: center;
     height: 32px;
     padding-left: 20rpx;
+    color: #FFF;
 }
 
 .lxy-nav-bar__logo image {
@@ -39,7 +39,7 @@
     flex-direction: column;
     box-sizing: border-box;
     padding-bottom: env(safe-area-inset-bottom);
-    background: #FFF;
+    background: #000000;
 }
 
 /*banner*/
@@ -210,7 +210,7 @@
 .jiangqie-news-type {
     font-size: 36rpx;
     font-weight: 500;
-    color: #555;
+    color: #FFF;
     padding: 16rpx 0 0;
 }
 
@@ -223,6 +223,7 @@
 }
 
 .jiangqie-news-block {
+    position: relative;
     padding: 30rpx 0;
     min-height: 160rpx;
     border-bottom: 1rpx solid #DDD;
@@ -231,6 +232,14 @@
 
 .jiangqie-news-block:last-child {
     border: none;
+}
+
+.jiangqie-news-stick-image {
+    position: absolute;
+    height: 60rpx;
+    width: 60rpx;
+    left: 0rpx;
+    top: 0rpx;
 }
 
 .jiangqie-news-image {
@@ -248,7 +257,7 @@
 
 .jiangqie-news-title {
     font-size: 32rpx;
-    color: #333;
+    color: #fff;
     font-weight: 400;
     line-height: 50rpx;
     /* margin-bottom: 30rpx; */
@@ -417,7 +426,7 @@
     position: fixed;
     left: 0;
     z-index: 99;
-    background: #E0301F;
+    background: #000000;
     white-space: nowrap;
 }
 
@@ -435,13 +444,13 @@
 .tab-bar-title {
     height: 100rpx;
     line-height: 100rpx;
-    font-size: 28rpx;
-    color: rgb(248, 184, 184);
+    font-size: 26rpx;
+    color: #FFF;
     font-weight: 300;
 }
 
 .active {
-    border-bottom: 6rpx solid #FFF;
+    border-bottom: 6rpx solid rgb(117, 116, 116);
 }
 
 .active .tab-bar-title {
@@ -451,3 +460,18 @@
 }
 
 /*tabbar end*/
+
+.jiangqie-news-title text {
+    font-size: 22rpx;
+    font-weight: 300;
+    color: #FFF;
+    background: #F30;
+    float: left;
+    width: 60rpx;
+    height: 36rpx;
+    margin-top: 6rpx;
+    line-height: 36rpx;
+    text-align: center;
+    border-radius: 8rpx;
+    margin-right: 12rpx;
+}

@@ -10,7 +10,7 @@ Component({
         //当前页面背景颜色
         bgcolor: {
             type: String,
-            value: "#FFFFFF"
+            value: "#000000"
         },
         //是否以圆点代替 "没有更多了"
         isDot: {
@@ -20,11 +20,11 @@ Component({
         //isDot为false时生效
         text: {
             type: String,
-            value: "我是有底线的..."
+            value: "© Maxwell imzxh.cn"
         }
     },
     data: {
         dotText: "●"
     },
-    methods: {}
+    methods: {},
 })
