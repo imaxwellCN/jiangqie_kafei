@@ -28,8 +28,8 @@ Hi，欢迎使用“酱茄小程序开源版 – Maxwell(深色模式)”。**�
 
 ![小程序截图-首页](https://raw.githubusercontent.com/imaxwellCN/jiangqie_kafei/master/screenshot/1.png)
 ![小程序截图-分类](https://raw.githubusercontent.com/imaxwellCN/jiangqie_kafei/master/screenshot/2.png)
-![小程序截图-热榜](https://raw.githubusercontent.com/imaxwellCN/jiangqie_kafei/master/screenshot/3.png)
-![小程序截图-我的](https://raw.githubusercontent.com/imaxwellCN/jiangqie_kafei/master/screenshot/4.png)
+![小程序截图-热榜](https://github.com/imaxwellCN/jiangqie_kafei/blob/master/screenshot/3.PNG?raw=true)
+![小程序截图-我的](https://github.com/imaxwellCN/jiangqie_kafei/blob/master/screenshot/4.PNG?raw=true)
 
 **后台截图**
 
