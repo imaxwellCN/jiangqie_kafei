@@ -1,5 +1,5 @@
 
-Hi，欢迎使用“酱茄小程序开源版 – Maxwell(深色模式)”。
+Hi，欢迎使用“酱茄小程序开源版 – Maxwell(深色模式)”。**已经集成了微信流量主模块**
 
 酱茄小程序开源版基于WordPress开源程序和WordPress REST API开发，实现WordPress网站数据与小程序数据同步共享，通过简单的配置就能搭建自己的小程序。
 
@@ -20,33 +20,24 @@ Hi，欢迎使用“酱茄小程序开源版 – Maxwell(深色模式)”。
 
 ## 演示
 
-![微信小程序二维码](https://gitee.com/longwenjunj/jiangqie_kafei/raw/master/screenshot/code.jpg) 
-
-**酱茄专业版二维码**
-
-![酱茄专业版二维码](https://gitee.com/imaxwellCN/jiangqie_kafei/raw/master/screenshot/code_pro.jpg)
+![微信小程序二维码](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/code.jpg) 
 
 **了解专业版：https://www.jiangqie.com/pro**
 
-**案例(部分用户有二次开发)**
-
-![虫子网络](https://gitee.com/imaxwellCN/jiangqie_kafei/raw/master/case/chognziwang.jpg "虫子网络") ![寻找摩天轮](https://gitee.com/imaxwellCN/jiangqie_kafei/raw/master/case/xunzhaomotianlun.jpg "寻找摩天轮") ![勾拉多+](https://gitee.com/imaxwellCN/jiangqie_kafei/raw/master/case/golot.jpg "勾拉多+") ![WordPress中文网](https://gitee.com/imaxwellCN/jiangqie_kafei/raw/master/case/wpzhongwen.jpg "WordPress中文网")
-
-![维基案例](https://gitee.com/imaxwellCN/jiangqie_kafei/raw/master/case/weiji.jpg "维基案例") ![拇指吉他谱](https://gitee.com/imaxwellCN/jiangqie_kafei/raw/master/case/jitapu.jpg "拇指吉他谱") ![痞事](https://gitee.com/longwenjunj/jiangqie_kafei/raw/master/case/pishi.jpg "痞事") ![凌小云i](https://gitee.com/imaxwellCN/jiangqie_kafei/raw/master/case/linngxiaoyun.jpg "凌小云i")
-
-
 **小程序截图**
 
-![小程序截图1](https://gitee.com/imaxwellCN/jiangqie_kafei/raw/master/screenshot/1.png)
-![小程序截图2](https://gitee.com/imaxwellCN/jiangqie_kafei/raw/master/screenshot/2.png)
+![小程序截图-首页](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/1.png)
+![小程序截图-分类](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/2.png)
+![小程序截图-热榜](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/3.png)
+![小程序截图-我的](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/4.png)
 
 **后台截图**
 
-![后台截图1](https://gitee.com/imaxwellCN/jiangqie_kafei/raw/master/screenshot/11.png)
-![后台截图2](https://gitee.com/imaxwellCN/jiangqie_kafei/raw/master/screenshot/12.png)
-![后台截图3](https://gitee.com/imaxwellCN/jiangqie_kafei/raw/master/screenshot/13.png)
-![后台截图4](https://gitee.com/imaxwellCN/jiangqie_kafei/raw/master/screenshot/14.png)
-![后台截图5](https://gitee.com/imaxwellCN/jiangqie_kafei/raw/master/screenshot/15.png)
+![后台截图1](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/11.png)
+![后台截图2](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/12.png)
+![后台截图3](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/13.png)
+![后台截图4](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/14.png)
+![后台截图5](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/15.png)
 
 
 ————————————【功能清单】————————————
