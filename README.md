@@ -20,24 +20,24 @@ Hi，欢迎使用“酱茄小程序开源版 – Maxwell(深色模式)”。**�
 
 ## 演示
 
-![微信小程序二维码](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/code.jpg) 
+![微信小程序二维码](https://raw.githubusercontent.com/imaxwellCN/jiangqie_kafei/master/screenshot/code.jpg) 
 
 **了解专业版：https://www.jiangqie.com/pro**
 
 **小程序截图**
 
-![小程序截图-首页](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/1.png)
-![小程序截图-分类](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/2.png)
-![小程序截图-热榜](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/3.png)
-![小程序截图-我的](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/4.png)
+![小程序截图-首页](https://raw.githubusercontent.com/imaxwellCN/jiangqie_kafei/master/screenshot/1.png)
+![小程序截图-分类](https://raw.githubusercontent.com/imaxwellCN/jiangqie_kafei/master/screenshot/2.png)
+![小程序截图-热榜](https://raw.githubusercontent.com/imaxwellCN/jiangqie_kafei/master/screenshot/3.png)
+![小程序截图-我的](https://raw.githubusercontent.com/imaxwellCN/jiangqie_kafei/master/screenshot/4.png)
 
 **后台截图**
 
-![后台截图1](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/11.png)
-![后台截图2](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/12.png)
-![后台截图3](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/13.png)
-![后台截图4](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/14.png)
-![后台截图5](https://github.com/imaxwellCN/jiangqie_kafei/tree/master/screenshot/15.png)
+![后台截图1](https://raw.githubusercontent.com/imaxwellCN/jiangqie_kafei/master/screenshot/11.png)
+![后台截图2](https://raw.githubusercontent.com/imaxwellCN/jiangqie_kafei/master/screenshot/12.png)
+![后台截图3](https://raw.githubusercontent.com/imaxwellCN/jiangqie_kafei/master/screenshot/13.png)
+![后台截图4](https://raw.githubusercontent.com/imaxwellCN/jiangqie_kafei/master/screenshot/14.png)
+![后台截图5](https://raw.githubusercontent.com/imaxwellCN/jiangqie_kafei/master/screenshot/15.png)
 
 
 ————————————【功能清单】————————————
